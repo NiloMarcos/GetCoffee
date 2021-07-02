@@ -125,3 +125,80 @@ section img {
 .section-scroll img {
   height: 30px;
 }
+
+@media (max-width: 400px){
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+  }
+
+  header img {
+    height: 30px;
+  }
+
+  nav li {
+    margin-top: 10px;
+  }
+
+  nav a {
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .container-all {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-form {
+    display: none;
+  }
+
+  .forma-1 {
+    display: none;
+  }
+
+  .forma-2 {
+    display: none;
+  }
+
+  .order-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  } 
+
+  .text-info {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8rem;
+  }
+  
+  section {
+    display: flex;
+    margin-top: 20rem;
+  }
+
+  section img {
+    padding: 9px;
+  }
+
+  .container-cup img {
+    display: none;
+  }
+
+  .section-scroll {
+    display: none;
+  }
+
+  .section-scroll p {
+    display: none;
+  }
+
+  .section-scroll img {
+    display: none;
+  }
+}
